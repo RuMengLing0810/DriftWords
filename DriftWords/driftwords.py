@@ -67,7 +67,7 @@ while running:
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
 
-    screen.fill((20, 43, 67))  # 背景色
+    screen.fill((95, 111, 153))  # 背景色
     for it in items:
         it.update()
         it.draw(screen)
